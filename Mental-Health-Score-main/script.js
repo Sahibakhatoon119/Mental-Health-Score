@@ -1,9 +1,7 @@
 (() => {
   "use strict";
 
-  const API_BASE = ["localhost", "127.0.0.1"].includes(window.location.hostname)
-    ? "http://127.0.0.1:8000"
-    : "https://mansik-santulan-score.onrender.com";
+ const API_BASE = "https://mental-health-score-uaul.onrender.com";
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
